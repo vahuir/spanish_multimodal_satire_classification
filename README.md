@@ -151,6 +151,6 @@ If you use this work or the associated code in your research, please cite it as 
 }
 ```
 
-### References
+## References
 
 [1] R. Pan, J. A. García-Díaz, T. Bernal-Beltrán, F. García-Sánchez, R. Valencia-García, Overview of SatiSPeech at IberLEF 2025: Multimodal Audio-Text Satire Classification in Spanish, Procesamiento del Lenguaje Natural 75 (2025).
