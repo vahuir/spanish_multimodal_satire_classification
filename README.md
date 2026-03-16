@@ -1,4 +1,4 @@
-# atire Detection Pipeline
+# Spanish Satire Detection Pipeline
 
 End-to-end inference script for multimodal (audio + text) satire detection in Spanish fine-tuned on the **SatiSPeech** dataset. Given a CSV file, it extracts audio and text embeddings on-the-fly and produces per-sample predictions without writing any intermediate files to disk.
 
