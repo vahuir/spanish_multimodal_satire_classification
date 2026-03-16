@@ -45,10 +45,9 @@ pip install torch transformers tensorflow librosa kagglehub scikit-learn pandas 
 
 ```bash
 python predict_satire.py \
-    --csv         SatiSPeech_phase_2_test_public.csv \
+    --csv         data.csv \
     --audio_dir   audios/ \
     --model_type  crossattention \
-    --crossattn_weights modelos/trillssonBNE_crossattention_weights.pth \
     --output      predictions_crossattn.pkl
 ```
 
@@ -56,11 +55,9 @@ python predict_satire.py \
 
 ```bash
 python predict_satire.py \
-    --csv         SatiSPeech_phase_2_test_public.csv \
+    --csv         data.csv \
     --audio_dir   audios/ \
     --model_type  svc \
-    --svc_models  modelos/modelos_TRILLssonBNE.pkl \
-    --svc_scaler  modelos/scalerTRILLssonBNE.pkl \
     --output      predictions_svc.pkl
 ```
 
