@@ -15,19 +15,6 @@ The pipeline supports two classifier backends that share the same embedding extr
 
 ---
 
-## Repository structure
-
-```
-.
-├── predict_satire.py          # main script (this repo)
-└── models/
-    ├── multimodal_crossattention.pth       # cross-attention weights
-    ├── multimodal_svc.pkl                  # multimodal SVC
-    └── audio_scaler.pkl                    # feature scaler for SVC
-```
-
----
-
 ## Requirements
 
 ```
